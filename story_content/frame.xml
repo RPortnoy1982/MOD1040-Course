@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns01001000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbsnfns01001000101" font="Open Sans" controllayout="npnxnanbsnfns01001000101" colorscheme="pxabnsnfns01001000101" string_table="pxabnsnfns01001000101" />
+    <layout name="pxabnsnfns01001000101" font="Open Sans" controllayout="pxabnsnfns01001000101" colorscheme="pxabnsnfns01001000101" string_table="pxabnsnfns01001000101" />
+    <layout name="npxnabnsnfns01001000101" font="Open Sans" controllayout="npxnabnsnfns01001000101" colorscheme="pxabnsnfns01001000101" string_table="pxabnsnfns01001000101" />
+    <layout name="npnxnanbnsnfns01001000101" font="Open Sans" controllayout="npnxnanbnsnfns01001000101" colorscheme="pxabnsnfns01001000101" string_table="pxabnsnfns01001000101" />
+    <layout name="pxabnsnfns01001000100" font="Open Sans" controllayout="pxabnsnfns01001000100" colorscheme="pxabnsnfns01001000101" string_table="pxabnsnfns01001000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -16,8 +16,16 @@
               <option name="title_text" value="MOD1040 Service Training" />
             </options>
           </option>
-          <option name="logo_enabled" value="false">
-            <options />
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="1023" />
+                  <property name="height" value="244" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/5tyi8aXpQGt.png" />
+            </options>
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
@@ -27,7 +35,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -67,7 +75,7 @@
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Open Sans" />
             </options>
@@ -82,12 +90,12 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns01001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -95,7 +103,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -105,12 +113,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns01001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -118,7 +126,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -128,12 +136,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns01001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -141,7 +149,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -151,12 +159,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns01001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -164,7 +172,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -174,12 +182,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns01001000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -187,7 +195,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -199,7 +207,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100101">
+    <colorscheme name="pxabnsnfns01001000101">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1105,53 +1113,53 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100101">
+    <string_table name="pxabnsnfns01001000101">
       <string id="acc_active">active</string>
-      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
-      <string id="acc_definition">definition</string>
-      <string id="acc_finish">finish</string>
-      <string id="acc_next">next</string>
-      <string id="acc_pause">pause</string>
-      <string id="acc_play">play</string>
-      <string id="acc_previous">previous</string>
-      <string id="acc_replay">replay</string>
-      <string id="acc_resources">resources</string>
-      <string id="acc_search_input">search</string>
-      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
-      <string id="acc_submit">submit</string>
-      <string id="acc_submitall">submit all</string>
-      <string id="acc_volume">volume</string>
-      <string id="bio">Bio</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
-      <string id="closed_captions">Captions</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
-      <string id="definition">Definition</string>
-      <string id="disabled_orientation">Please rotate your device</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
-      <string id="more_info">More info</string>
-      <string id="next">NEXT</string>
+      <string id="terms">Terms</string>
       <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
       <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="send_an_email">Send an email</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="submit">SUBMIT</string>
       <string id="submitall">SUBMIT ALL</string>
-      <string id="terms">Terms</string>
-      <string id="transcript">Notes</string>
-      <string id="transcript_chk">Notes</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1204,17 +1212,17 @@
             <slidelink slideid="_player.6JddhzuKcdG.5u7BC1VKrp4" displaytext="Troubleshooting: Scenarios" expand="false" type="slide" />
             <slidelink slideid="_player.6JddhzuKcdG.6DS3jfHV0JF" displaytext="Troubleshooting: Scenarios" expand="false" type="slide" />
             <slidelink slideid="_player.6JddhzuKcdG.6Cko4AYAkoy" displaytext="End of Training" expand="false" type="slide" />
-            <slidelink slideid="_player.6JddhzuKcdG.6qbnYknPYyf" displaytext="Scenario: It is reported that O2 reading is unavailable and Modbus shows communication errors&#xA;What should be checked first?" expand="false" type="slide" />
+            <slidelink slideid="_player.6JddhzuKcdG.6qbnYknPYyf" displaytext="Scenario: It is reported that O2 reading is unavailable and Modbus shows communication errors What should be checked first?" expand="false" type="slide" />
             <slidelink slideid="_player.6JddhzuKcdG.6q00ohljwQT" displaytext="Place the calibration steps in correct order" expand="false" type="slide" />
             <slidelink slideid="_player.6JddhzuKcdG.6pgyX76i9Ck" displaytext="Identify and enter for presented configuration value of pressure (in barg), corresponding to the high current readings (picture can be zoomed in):" expand="false" type="slide" />
-            <slidelink slideid="_player.6JddhzuKcdG.6dUSy9GS51R" displaytext="Scenario: &#xA;A MOD-1040 analyzer was calibrated at 25°C and Atmospheric pressure&#xA;Process conditions changed to 50°C and 10 barg&#xA;No compensation was applied.&#xA;What would happen?" expand="false" type="slide" />
+            <slidelink slideid="_player.6JddhzuKcdG.6dUSy9GS51R" displaytext="Scenario: A MOD-1040 analyzer was calibrated at 25°C and Atmospheric pressure Process conditions changed to 50°C and 10 barg No compensation was applied. What would happen?" expand="false" type="slide" />
             <slidelink slideid="_player.6JddhzuKcdG.6OENctFUTTe" displaytext="Which component provides optical isolation from the process gas?" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
